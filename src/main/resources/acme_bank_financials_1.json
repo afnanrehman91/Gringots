@@ -1,0 +1,49 @@
+{
+  "batches": [
+    {
+      "id": 1,
+      "transactions": [
+        {
+          "id": 1,
+          "source_account": 40,
+          "currency": "USD",
+          "amount_in_cents": 81980,
+          "destination_account": 13
+        },
+        {
+          "id": 2,
+          "source_account": 12,
+          "currency": "USD",
+          "amount_in_cents": 141982,
+          "destination_account": 35
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "transactions": [
+        {
+          "id": 3,
+          "source_account": 40,
+          "currency": "USD",
+          "amount_in_cents": 81981,
+          "destination_account": 15
+        },
+        {
+          "id": 4,
+          "source_account": 31,
+          "currency": "USD",
+          "amount_in_cents": 1234,
+          "destination_account": 15
+        },
+        {
+          "id": 5,
+          "source_account": 35,
+          "currency": "USD",
+          "amount_in_cents": 43564,
+          "destination_account": 15
+        }
+      ]
+    }
+  ]
+}
