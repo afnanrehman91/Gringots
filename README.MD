@@ -8,7 +8,7 @@ Carta does already integrate with two other banks: SweetBank and AcmeFinancials.
 
 ## The Problem
 
-Update the provided code to recognize a new input file format and **print out a small report** identifying the account whose **average withdrawal amount** was largest.
+Update the provided code to recognize a new input file format and **print out a small report** identifying the account whose **average withdrawal amount** was largest. In case there is more than one account, print all.
 
 Refactor the existing codebase as appropriate to support this new integration.
 
@@ -30,6 +30,8 @@ To install Gradle
     https://gradle.org/install/
 
 ### File Format
+
+`src/main/resources/gringotts_5b36864e-8089-40f7-8d3d-25c14715656d.txt` is a sample test file provided.
 
 After much trouble, the goblins at Gringotts handed us the specification for the file format:
 
@@ -125,7 +127,7 @@ Submit your code as a zip file (no GitHub links, please!) using the submission l
 
 Your submission should also include a `SUBMISSION.txt` describing any key design decisions and documenting any assumptions you made.
 
-**Your submission should also include a file called `solution.txt` with the output of applying your solution to the sample Gringotts data in the `assets` directory.**
+**Your submission should also include a file called `solution.txt` with the output of applying your solution to the sample Gringotts data in the `src/main/resources` directory.**
 
 So we can ensure that your assignment remains anonymous during grading, please do not include your name anywhere in your code or in your `SUBMISSION.txt`.
 
