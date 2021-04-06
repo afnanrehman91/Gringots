@@ -1,0 +1,6 @@
+> Task :run
+gringotts_5b36864e-8089-40f7-8d3d-25c14715656d.txt
+Accounts with Maximum average transactions : [100000002RG100000002]
+
+
+Command : gradle run --args="gringotts"

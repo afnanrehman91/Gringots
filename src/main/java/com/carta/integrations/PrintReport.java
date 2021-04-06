@@ -1,6 +1,6 @@
 package com.carta.integrations;
 
-import java.util.List;
+import java.util.*;
 
 public class PrintReport {
     public static void main(String[] args) {
@@ -23,6 +23,13 @@ public class PrintReport {
             String fileName = "acme_bank_financials_1.json";
             System.out.println(fileName);
             System.out.println(new AcmeFinancials().process(resourcesPath + fileName));
+        }
+
+        if ("gringotts".equals(nameOfBank)) {
+            String fileName = "gringotts_5b36864e-8089-40f7-8d3d-25c14715656d.txt";
+            System.out.println(fileName);
+            System.out.println("Accounts with Maximum average transactions : "
+                    +new Gringotts().process(resourcesPath + fileName));
         }
     }
 }

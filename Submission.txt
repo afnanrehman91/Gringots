@@ -1,0 +1,3 @@
+Due to shortage of time, I could refactor the code.
+I wanted to implement design patterns like Factory so hide the object creation details.
+That would have cleaned up the code a lot.
